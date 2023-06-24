@@ -1,0 +1,190 @@
+*{
+    margin: 0px ;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+
+#menu-superior{
+    background-color: Blue;
+    background-image: url(/imagens/fundo-menusuperior.svg);
+    color: #EAECE5;
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+/*ALTERAÇÃO DE CLASSES - icones*/
+.icones{  
+        margin: 50px 0px 50px 100px;
+        padding: 20px;
+}
+
+/*ALTERAÇÃO DE CLASSES - texto-informativo*/
+.texto-informativo{
+        display: flex;
+        align-items: center;
+}
+
+#secao-video{
+   
+    display: grid; /*organizar por GRID*/
+    grid-auto-flow: column; /*GRID organizado por Colunas*/
+    columns: auto; /*Colunas SETADAS automaticamente*/
+    
+}
+
+#titulo-video{
+
+    color: #247BA0;
+    margin-top: 50px;
+    columns: auto;
+}
+
+#texto-video{
+    
+    color: #247BA0;
+    
+    columns: right;
+    padding-left: 10;
+    
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+    border-radius: 15px;
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+
+#titulo-carrosel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+
+
+}
+
+/*ALTERAÇÃO DE CLASSES - card*/
+.card{
+    margin-left: 50px;
+    
+}
+
+.card:hover{
+    transform: translateX(-7px); /*Comando de movimentação de 7 pixels horizontais*/
+    transition-duration: 0.5s; /*Duração da movimentação*/
+}
+
+
+/*id - seta-esquerda*/
+#seta-esquerda{
+
+    display: none;
+}
+
+/*id - Bruna*/
+#Bruna{
+
+    display: none;
+}
+
+/*ALTERAÇÃO DE CLASSES - seta |  % Itens que vão variar de tamanho - Responsividade*/
+.seta{
+    
+    margin-top: 150%;
+    cursor: pointer;
+
+}
+
+/*seta hover elemento flutuante*/
+.seta:hover{
+    transform: translateY(-7px); /*Comando de movimentação de 7 pixels verticais*/
+    transition-duration: 0.5s; /*Duração da movimentação*/
+
+}
+
+#formulario{
+	text-align: center;
+		
+}
+
+#titulo-formulario{
+	font-size: 25px;
+	margin: 25px;
+	color: #383838;
+}
+
+input{
+    Width: 300px;
+    Height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px; /*borda do imput*/
+    border-radius: 5px; /*arredondar a borda*/
+    padding: 10px; /*espaçamento do objeto up/down/left/right  margem interna*/
+    
+
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+
+}
+
+/*Função ativa ao passar o mouse*/
+button:hover{
+    background-color: #3e9fc2;  /*Altera cor*/
+    color:white; /*altera cor da letra */
+    transform: translateY(-7px);   /*Faz o objeto botão se mexer */
+    box-shadow: 0px 15px 20px #519dbb;  /*Cria sombra no botão*/
+    transition-duration: 0.5s; /* tempo de animação da sombra*/
+    
+
+}
+
+
+
+
+
+
+
